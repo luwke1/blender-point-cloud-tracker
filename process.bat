@@ -1,11 +1,6 @@
 @echo off
 setlocal
 
-:: =================================================================
-:: Generic COLMAP Processing Script for Blender Addon
-:: This script receives all paths and parameters as arguments.
-:: =================================================================
-
 :: Assign arguments to named variables
 set "COLMAP_EXE=%~1"
 set "DATABASE_PATH=%~2"
