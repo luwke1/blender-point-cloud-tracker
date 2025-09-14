@@ -99,4 +99,3 @@ This addon is a wrapper that orchestrates several tools:
 * **Error: "colmap.exe not found"**: This means the addon cannot find the COLMAP executable. Make sure your installed folder structure matches the one shown in the **Installation** section.
 * **Error: "Please enable the 'photogrammetry_importer' add-on."**: You must install and enable the required importer addon first. See step 1 of the installation guide.
 * **The process finishes but nothing is imported**: The COLMAP reconstruction might have failed. Check the output in the console window for any errors. Common causes are blurry footage, poor lighting, or scenes with few unique features.
-* **Blender freezes when I click "Generate"**: Frame extraction can take a while for long or high-resolution videos. Check the Blender system console (`Window > Toggle System Console`) for progress.
